@@ -1,39 +1,37 @@
-git clone https://github.com/CheneyThinker/{projectName}.git
-	tip:
-		Cloning into '{projectName}'...
-		remote: Counting objects: 4, done.
-		remote: Compressing objects: 100% (3/3), done.
-		remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
-		Unpacking objects: 100% (4/4), done.
-cd {projectName}/
-git pull origin master
-	tip:
-		From https://github.com/CheneyThinker/{projectName}
- 		* branch            master     -> FETCH_HEAD
-		Already up to date.
-git add (need to added file, example src/*.js/*)
-git commit -m "{comment content}"
-	tip:
-		[master 696bab4] {comment content}
-		 2 files changed, 231 insertions(+)
-		 create mode 100644 CheneyRequest.js
-		 create mode 100644 md5.js
-git push origin master
-	tip:
-		$ git push origin master
-		Counting objects: 4, done.
-		Delta compression using up to 4 threads.
-		Compressing objects: 100% (4/4), done.
-		Writing objects: 100% (4/4), 2.54 KiB | 2.54 MiB/s, done.
-		Total 4 (delta 0), reused 0 (delta 0)
-		To https://github.com/CheneyThinker/{projectName}.git
-		   0df0772..696bab4  master -> master
-
-other command-line
-git config --global --list
-git config --global --remove-section user
-git fetch origin
-git merge origin/master
-git push -u origin master
-git remote rm origin
-git remote add origin https://github.com/CheneyThinker/{projectName}.git
+- **git clone https://github.com/CheneyThinker/{projectName}.git**
+	- tip:
+		- Cloning into '{projectName}'...
+		- remote: Counting objects: 4, done.
+		- remote: Compressing objects: 100% (3/3), done.
+		- remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+		- Unpacking objects: 100% (4/4), done.
+- **cd {projectName}/**
+- **git pull origin master**
+	- tip:
+		- From https://github.com/CheneyThinker/{projectName}
+		- * branch master -> FETCH_HEAD
+		- Already up to date.
+- **git add (need to added file, example src/.js/)**
+- **git commit -m "{comment content}"**
+	- tip:
+		- [master 696bab4] {comment content}
+		- 2 files changed, 231 insertions(+)
+		- create mode 100644 CheneyRequest.js
+		- create mode 100644 md5.js
+- **git push origin master**
+	- tip:
+		- $ git push origin master
+		- Counting objects: 4, done.
+		- Delta compression using up to 4 threads.
+		- Compressing objects: 100% (4/4), done.
+		- Writing objects: 100% (4/4), 2.54 KiB | 2.54 MiB/s, done.
+		- Total 4 (delta 0), reused 0 (delta 0)
+		- To https://github.com/CheneyThinker/{projectName}.git 0df0772..696bab4 master -> master
+- **other command-line**
+	- **git config --global --list***
+	- ***git config --global --remove-section user***
+	- ***git fetch origin***
+	- ***git merge origin/master***
+	- ***git push -u origin master***
+	- ***git remote rm origin***
+	- ***git remote add origin https://github.com/CheneyThinker/{projectName}.git***
