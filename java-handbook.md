@@ -8,5 +8,6 @@
 		- Class-Path: *.jar
 		- Created-By: Cheseny
 		- Main-Class: Application
+
 - **jar -cfm Application.jar MANIFEST.MF *.class**
 - **java -jar Application.jar**
