@@ -28,10 +28,10 @@
 		- Total 4 (delta 0), reused 0 (delta 0)
 		- To https://github.com/CheneyThinker/{projectName}.git 0df0772..696bab4 master -> master
 - **other command-line**
-	- **git config --global --list***
-	- ***git config --global --remove-section user***
-	- ***git fetch origin***
-	- ***git merge origin/master***
-	- ***git push -u origin master***
-	- ***git remote rm origin***
-	- ***git remote add origin https://github.com/CheneyThinker/{projectName}.git***
+	- **git config --global --list**
+	- **git config --global --remove-section user**
+	- **git fetch origin**
+	- **git merge origin/master**
+	- **git push -u origin master**
+	- **git remote rm origin**
+	- **git remote add origin https://github.com/CheneyThinker/{projectName}.git**
